@@ -65,10 +65,10 @@
 
   .head-name {
     text-align: center;
-    font-size: 350%;
+    font-size: 330%;
     padding-top: 0.5cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(243, 242, 241, 0.938);
+    color: rgba(255, 255, 255, 0.938);
 
   }
 
@@ -80,3 +80,7 @@
     color: aqua;
     
   } 
+
+  .github {
+    padding: 20px;
+  }
