@@ -7,6 +7,30 @@
   <title>Calculator</title>
   <link href="style.css" rel="stylesheet">
   <script src="script.js" defer></script>
+
+  <!-- Repixel Code -->
+<script>
+  (function(w, d, s, id, src){
+  w.Repixel = r = {
+    init: function(id) {
+      w.repixelId = id;
+    }
+  };
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)){ return; }
+  js = d.createElement(s); 
+  js.id = id;
+  js.async = true;
+  js.onload = function(){
+      Repixel.init(w.repixelId);
+  };
+  js.src = src;
+  fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'repixel', 
+  'https://sdk.repixel.co/r.js'));
+  Repixel.init('5fe5eb3a0a0bf00009bc6673');
+</script>
+<!-- Repixel Code -->
   
 </head>
 <body background="pic1.jpg">
