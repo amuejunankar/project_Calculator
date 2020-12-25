@@ -68,6 +68,7 @@
     font-size: 330%;
     padding-top: 0.5cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 80px;
     color: rgba(255, 255, 255, 0.938);
 
   }
@@ -82,5 +83,13 @@
   } 
 
   .github {
-    padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 2px;
+  opacity: 0.54;
+  transition: 0.3s;
+  }
+
+  .github:hover {
+    opacity: 1
   }
